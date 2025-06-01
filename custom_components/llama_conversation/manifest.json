@@ -1,12 +1,12 @@
 {
   "domain": "llama_conversation",
   "name": "Local LLM Conversation",
-  "version": "0.3.9",
-  "codeowners": ["@acon96"],
+  "version": "0.3.9-sredman",
+  "codeowners": ["@sredman"],
   "config_flow": true,
   "dependencies": ["conversation"],
   "after_dependencies": ["assist_pipeline"],
-  "documentation": "https://github.com/acon96/home-llm",
+  "documentation": "https://github.com/sredman/home-llm",
   "integration_type": "service",
   "iot_class": "local_polling",
   "requirements": [
